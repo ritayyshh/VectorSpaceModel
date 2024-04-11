@@ -1,0 +1,17 @@
+C:\Users\DELL\Desktop\K213961\bin\Debug\net8.0\K213961.exe
+C:\Users\DELL\Desktop\K213961\bin\Debug\net8.0\K213961.deps.json
+C:\Users\DELL\Desktop\K213961\bin\Debug\net8.0\K213961.runtimeconfig.json
+C:\Users\DELL\Desktop\K213961\bin\Debug\net8.0\K213961.dll
+C:\Users\DELL\Desktop\K213961\bin\Debug\net8.0\K213961.pdb
+C:\Users\DELL\Desktop\K213961\obj\Debug\net8.0\K213961.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\K213961\obj\Debug\net8.0\K213961.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\K213961\obj\Debug\net8.0\K213961.AssemblyInfo.cs
+C:\Users\DELL\Desktop\K213961\obj\Debug\net8.0\K213961.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\K213961\obj\Debug\net8.0\K213961.dll
+C:\Users\DELL\Desktop\K213961\obj\Debug\net8.0\refint\K213961.dll
+C:\Users\DELL\Desktop\K213961\obj\Debug\net8.0\K213961.pdb
+C:\Users\DELL\Desktop\K213961\obj\Debug\net8.0\K213961.genruntimeconfig.cache
+C:\Users\DELL\Desktop\K213961\obj\Debug\net8.0\ref\K213961.dll
+C:\Users\DELL\Desktop\K213961\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\DELL\Desktop\K213961\obj\Debug\net8.0\K213961.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\K213961\obj\Debug\net8.0\K213961.csproj.Up2Date

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5h+Vp9sWO4wmckgxANd1YKAIel+UFm6JPS0xdKAsK33NZQGnUw3hj0CX9TbHKesDVkGa0qnAB7nj8YVerhtuqw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DELL\\Desktop\\K213961\\K213961.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
