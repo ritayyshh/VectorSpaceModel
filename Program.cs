@@ -19,20 +19,22 @@
             //TF_IDF.SaveTFMatrix(tfMatrix, "tfMatrix.json");
             //TF_IDF.SaveIDFMatrix(idfMatrix, "idfMatrix.json");
             //tfMatrix = TF_IDF.LoadTFMatrix("tfMatrix.json");
-            //idfMatrix = TF_IDF.LoadIDFMatrix("idfMatrix.json");
+            idfMatrix = TF_IDF.LoadIDFMatrix("idfMatrix.json");
             Dictionary<string, Dictionary<int, double>> tfidfMatrix;// = TF_IDF.CreateTFIDFMatrix(tfMatrix, idfMatrix);
             //TF_IDF.SaveTFIDFMatrix(tfidfMatrix, "tfidfMatrix.json");
             tfidfMatrix = TF_IDF.LoadTFIDFMatrix("tfidfMatrix.json");
-            VSMquery(tfidfMatrix, invertedIndex, allDocumentIds);
+            VSMquery(tfidfMatrix, idfMatrix);
         }
-        static void VSMquery(Dictionary<string, Dictionary<int, double>> tfidfMatrix, Dictionary<string, Dictionary<int, int>> invertedIndex, HashSet<int> allDocumentIds)
+        static void VSMquery(Dictionary<string, Dictionary<int, double>> tfidfMatrix, Dictionary<string, double> idfMatrix)
         {
             String query = "";
-            while(query != "exit")
+            while(true)
             {
                 Console.Write("Query: ");
                 query = Console.ReadLine();
-                Dictionary<string, double> queryVector = TF_IDF.GenerateQueryVector(query, invertedIndex, allDocumentIds.Count());
+                if (query == "exit")
+                    break;
+                Dictionary<string, double> queryVector = TF_IDF.GenerateQueryVector(query, idfMatrix);
                 List<int> result = CosineSimilarity.ComputeCosineSimilarity(queryVector, tfidfMatrix);
                 Console.Write("Result-Set: ");
                 if (result.Count == 0)

@@ -68,7 +68,7 @@ namespace K213961
 
             return tfidfMatrix;
         }
-        public static Dictionary<string, double> GenerateQueryVector(string query, Dictionary<string, Dictionary<int, int>> invertedIndex, int totalDocuments)
+        public static Dictionary<string, double> GenerateQueryVector(string query, Dictionary<string, double> idfMatrix)
         {
             // Tokenize and stem the query
             List<string> vowels = new List<string> { "a", "e", "i", "o", "u" }; // Sample list of vowels
@@ -101,17 +101,17 @@ namespace K213961
                 string term = termFreqPair.Key;
                 int termFreq = termFreqPair.Value;
                 double tf = 1 + Math.Log10(termFreq);
-                double idf = invertedIndex.ContainsKey(term) ? Math.Log10((double)totalDocuments / invertedIndex[term][-1]) : 0;
+                double idf = idfMatrix.ContainsKey(term) ? idfMatrix[term] : 0;
                 double tfidf = tf * idf;
                 queryTFIDF[term] = tfidf;
             }
 
             // Print query vector on console
-            /*Console.WriteLine("Query Vector:");
+            Console.WriteLine("Query Vector:");
             foreach (var termTfidfPair in queryTFIDF)
             {
                 Console.WriteLine($"{termTfidfPair.Key}: {termTfidfPair.Value}");
-            }*/
+            }
 
             return queryTFIDF;
         }

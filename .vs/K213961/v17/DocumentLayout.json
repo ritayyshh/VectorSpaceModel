@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\K213961\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F14FCDCB-0B29-498A-84BB-C3D5BB9C0136}|K213961.csproj|C:\\Users\\DELL\\Desktop\\K213961\\tf-idf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F14FCDCB-0B29-498A-84BB-C3D5BB9C0136}|K213961.csproj|solutionrelative:tf-idf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F14FCDCB-0B29-498A-84BB-C3D5BB9C0136}|K213961.csproj|c:\\users\\dell\\desktop\\k213961\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F14FCDCB-0B29-498A-84BB-C3D5BB9C0136}|K213961.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F14FCDCB-0B29-498A-84BB-C3D5BB9C0136}|K213961.csproj|C:\\Users\\DELL\\Desktop\\K213961\\invertedindex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F14FCDCB-0B29-498A-84BB-C3D5BB9C0136}|K213961.csproj|solutionrelative:invertedindex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F14FCDCB-0B29-498A-84BB-C3D5BB9C0136}|K213961.csproj|C:\\Users\\DELL\\Desktop\\K213961\\tf-idf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F14FCDCB-0B29-498A-84BB-C3D5BB9C0136}|K213961.csproj|solutionrelative:tf-idf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F14FCDCB-0B29-498A-84BB-C3D5BB9C0136}|K213961.csproj|C:\\Users\\DELL\\Desktop\\K213961\\tokenprocessing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +38,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CosineSimilarity.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\K213961\\CosineSimilarity.cs",
               "RelativeDocumentMoniker": "CosineSimilarity.cs",
@@ -46,8 +46,7 @@
               "RelativeToolTip": "CosineSimilarity.cs",
               "ViewState": "AQIAAAQAAADw//////86wCEAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T12:51:58.731Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-09T12:51:58.731Z"
             },
             {
               "$type": "Document",
@@ -59,25 +58,24 @@
               "RelativeToolTip": "TokenProcessing.cs",
               "ViewState": "AQIAACYAAAAAkJmZmZnhvz4AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T10:35:00.546Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-09T10:35:00.546Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "TF-IDF.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\K213961\\TF-IDF.cs",
               "RelativeDocumentMoniker": "TF-IDF.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\K213961\\TF-IDF.cs",
               "RelativeToolTip": "TF-IDF.cs",
-              "ViewState": "AQIAAHYAAAAAAAAAAAAYwIsAAAAJAAAA",
+              "ViewState": "AQIAAFoAAAAgAAAAAMAswG8AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-09T09:46:58.946Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "InvertedIndex.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\K213961\\InvertedIndex.cs",
               "RelativeDocumentMoniker": "InvertedIndex.cs",
@@ -85,18 +83,17 @@
               "RelativeToolTip": "InvertedIndex.cs",
               "ViewState": "AQIAABcAAAAgAAAAAAAqwEQAAABxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T09:12:10.864Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-09T09:12:10.864Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\K213961\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\K213961\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAwAAAAAmZmZmZkBwBsAAACIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-09T09:03:40.604Z",
               "EditorCaption": ""

@@ -15,3 +15,4 @@ C:\Users\DELL\Desktop\K213961\obj\Debug\net8.0\ref\K213961.dll
 C:\Users\DELL\Desktop\K213961\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\DELL\Desktop\K213961\obj\Debug\net8.0\K213961.csproj.AssemblyReference.cache
 C:\Users\DELL\Desktop\K213961\obj\Debug\net8.0\K213961.csproj.Up2Date
+C:\Users\DELL\Desktop\K213961\obj\Debug\net8.0\K213961.sourcelink.json
